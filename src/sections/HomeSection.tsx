@@ -33,8 +33,8 @@ export default function HomeSection({}: Props) {
               Khafidh Ihyauddin
             </p>
             <Image
-              src='/nail.png'
-              alt='Nail Image'
+              src='/saya.png'
+              alt='Khafidh Ihyauddin'
               className='h-6 w-6 rotate-[30deg] object-cover'
             />
           </div>
@@ -53,8 +53,8 @@ export default function HomeSection({}: Props) {
               Partai Kebangkitan Bangsa
             </p>
             <Image
-              src='/nail.png'
-              alt='Nail Image'
+              src='/saya.png'
+              alt='Khafidh Ihyauddin'
               className='h-6 w-6 rotate-[30deg] object-cover'
             />
           </div>
