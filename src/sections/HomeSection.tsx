@@ -18,7 +18,7 @@ export default function HomeSection({}: Props) {
             Membangun Negeri Tanpa Melupakan Jati Diri Sebagai Muslimat Sejati
           </h3>
           <Button className='mt-5 bg-secondary text-white' size='lg'>
-            Explore
+            TENTANG SAYA
           </Button>
         </div>
         <div className='relative '>
@@ -27,13 +27,13 @@ export default function HomeSection({}: Props) {
           sm:-left-10'
           >
             <div className='flex h-8 w-8  items-center justify-center rounded-full bg-primary text-white'>
-              03
+              02
             </div>
             <p className='text-primary-text text-base font-medium'>
               Khafidh Ihyauddin
             </p>
             <Image
-              src='/saya.png'
+              src='/nail.png'
               alt='Khafidh Ihyauddin'
               className='h-6 w-6 rotate-[30deg] object-cover'
             />
@@ -53,7 +53,7 @@ export default function HomeSection({}: Props) {
               Partai Persatuan Pembangunan
             </p>
             <Image
-              src='/saya.png'
+              src='/nail.png'
               alt='Khafidh Ihyauddin'
               className='h-6 w-6 rotate-[30deg] object-cover'
             />
@@ -74,8 +74,8 @@ export default function HomeSection({}: Props) {
           </div>
           <div className='relative overflow-y-hidden rounded-2xl bg-white/20 backdrop-blur-lg'>
             <Image
-              src='/image-3.png'
-              alt='Hero Image'
+              src='/saya.png'
+              alt='Khafidh Ihyauddin'
               className=' relative -bottom-10 z-0 h-[520px] w-[450px] object-cover drop-shadow-2xl sm:h-[550px]'
             />
           </div>
