@@ -8,8 +8,8 @@ import Footer from '@/components/Footer';
 const outfit = Outfit({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'Azizah Mukarromah - Calon Anggota DPRD Kabupaten Ciamis',
-  description: 'Azizah Mukarromah - Calon Anggota DPRD Kabupaten Ciamis',
+  title: 'Khafidh Ihyauddin - Calon Anggota DPRD Kabupaten Lamongan',
+  description: 'Khafidh Ihyauddin - Calon Anggota DPRD Kabupaten Lamongan',
 };
 
 export default function RootLayout({
