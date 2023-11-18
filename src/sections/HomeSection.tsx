@@ -12,7 +12,7 @@ export default function HomeSection({}: Props) {
       <div className='container flex h-full w-full flex-col items-center justify-center gap-10 lg:flex-row lg:justify-between'>
         <div className='flex flex-col items-center justify-center text-center lg:items-start lg:text-start'>
           <h1 className='text-hero-title text-white '>
-            Azizah Mukarromah Calon DPRD Kabupaten Ciamis
+            Khafidh Ihyauddin Calon DPRD Kabupaten Lamongan
           </h1>
           <h3 className='text-hero-subtitle max-w-lg pt-4'>
             Membangun Negeri Tanpa Melupakan Jati Diri Sebagai Muslimat Sejati
@@ -30,7 +30,7 @@ export default function HomeSection({}: Props) {
               03
             </div>
             <p className='text-primary-text text-base font-medium'>
-              Azizah Mukarromah
+              Khafidh Ihyauddin
             </p>
             <Image
               src='/nail.png'
