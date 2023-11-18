@@ -43,14 +43,14 @@ export default function HomeSection({}: Props) {
           sm:right-10'
           >
             <Image
-              src='/pkb-color.svg'
+              src='/ppp.svg'
               width={50}
               height={50}
-              alt='Logo PKB'
+              alt='Logo Partai Persatuan Pembangunan'
               className='h-10 w-10'
             />
             <p className='text-primary-text text-base font-medium'>
-              Partai Kebangkitan Bangsa
+              Partai Persatuan Pembangunan
             </p>
             <Image
               src='/saya.png'
