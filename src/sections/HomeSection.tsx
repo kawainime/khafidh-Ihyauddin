@@ -27,7 +27,7 @@ export default function HomeSection({}: Props) {
           sm:-left-10'
           >
             <div className='flex h-8 w-8  items-center justify-center rounded-full bg-primary text-white'>
-              02
+              01
             </div>
             <p className='text-primary-text text-base font-medium'>
               Khafidh Ihyauddin
