@@ -49,13 +49,7 @@ export default function Navbar() {
           className='sm:hidden'
         />
         <NavbarBrand>
-          <Image
-            src='/nu.svg'
-            alt='Logo NU'
-            width={100}
-            height={100}
-            className='w-12 md:w-16'
-          />
+          
         </NavbarBrand>
       </NavbarContent>
 
