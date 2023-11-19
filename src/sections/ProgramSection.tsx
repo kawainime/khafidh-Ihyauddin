@@ -8,7 +8,7 @@ export default function ProgramSection({}: Props) {
       <div className='mb-10 flex flex-col items-center  justify-center gap-2'>
         <h1 className='text-primary-text text-hero-title '>Visi & Misi</h1>
         <h2 className='text-center text-lg text-slate-500 md:text-xl'>
-          Dalam perjalanan menuju kesejahteraan masyarakat, Azizah berkomitmen
+          Dalam perjalanan menuju kesejahteraan masyarakat, Khafldh Ihyauddin berkomitmen
           Untuk
         </h2>
       </div>
