@@ -58,20 +58,6 @@ export default function HomeSection({}: Props) {
               className='h-6 w-6 rotate-[30deg] object-cover'
             />
           </div>
-          <div
-            className='absolute right-2 top-64 z-10 flex h-16 w-64 items-center justify-evenly gap-2 rounded-xl bg-black
-          sm:-right-10'
-          >
-            <Image
-              src='/nu-color.svg'
-              width={50}
-              height={50}
-              alt='Logo PKB'
-              className='h-14 w-14'
-            />
-            <p className='text-base font-medium text-white'>Nahdhatul Ulama</p>
-            <div className='h-3 w-3 rounded-full bg-primary'></div>
-          </div>
           <div className='relative overflow-y-hidden rounded-2xl bg-white/20 backdrop-blur-lg'>
             <Image
               src='/khafidh.png'
