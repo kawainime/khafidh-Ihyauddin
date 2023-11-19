@@ -81,52 +81,7 @@ export default function HomeSection({}: Props) {
           </div>
         </div>
       </div>
-      <div className=''>
-        <p className='text-hero-subtitle pb-5 text-center md:pb-10'>
-          Official Partner
-        </p>
-        <div className='flex h-full w-full flex-wrap items-center justify-center gap-5 sm:gap-8 md:gap-10 lg:gap-12 xl:gap-24'>
-          <Image
-            src='/nu.svg'
-            alt='Logo NU'
-            as={NextImage}
-            width={200}
-            height={200}
-            className='w-24 sm:w-28'
-          />
-          <Image
-            src='/pkb.svg'
-            alt='Logo NU'
-            as={NextImage}
-            width={200}
-            height={200}
-            className='w-20 sm:w-24'
-          />
-          <Image
-            src='/muslimat.svg'
-            alt='Logo NU'
-            as={NextImage}
-            width={200}
-            height={200}
-            className='w-32 sm:w-40'
-          />
-          <Image
-            src='/anshor.png'
-            alt='Logo NU'
-            as={NextImage}
-            width={200}
-            height={200}
-            className='w-[81px] sm:w-24'
-          />
-          <Image
-            src='/fatayat.svg'
-            alt='Logo NU'
-            as={NextImage}
-            width={200}
-            height={200}
-            className='w-[75px] sm:w-[85px]'
-          />
-        </div>
+      
       </div>
     </section>
   );
