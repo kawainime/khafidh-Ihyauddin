@@ -4,7 +4,7 @@ type Props = {
 
 export default function VissionMissionCard({ activeTabs }: Props) {
   const data = {
-    visi: "Menjadikan masyarakat yang berkeadilan, berkeadaban, dan berdaya saing, melalui penguatan nilai-nilai agama, partisipasi aktif dalam kegiatan sosial, serta pemberdayaan perempuan",
+    visi: "Menjadikan masyarakat yang berkeadilan, berkeadaban, dan berdaya saing, melalui penguatan nilai-nilai agama, partisipasi aktif dalam kegiatan sosial, serta pemberdayaan perempuan dan anak",
     misi: [
       {
         title: "Penguatan Nilai Agama",
@@ -35,8 +35,8 @@ export default function VissionMissionCard({ activeTabs }: Props) {
         <div className="w-2 h-2 rounded-full bg-bg_secondary"></div>
         <div className="w-2 h-2 rounded-full bg-bg_secondary"></div>
       </div>
-      <h1 className="text-2xl font-semibold text-primary-text">Visi</h1>
-      {activeTabs === "visi" ? (
+      <h1 className="text-2xl font-semibold text-primary-text">Visi & Misi</h1>
+      {activeTabs === "visi & misi" ? (
         <p className="max-w-xl">{data.visi}</p>
       ) : (
         <ul className="flex flex-col gap-5 ">
@@ -49,9 +49,6 @@ export default function VissionMissionCard({ activeTabs }: Props) {
                 <span className="w-6 h-6 rounded-full bg-secondary flex justify-center items-center text-white">
                   {index + 1}
                 </span>
-                <h1 className="text-lg font-semibold text-primary-text">{misi.title}</h1>
-              </div>
-              <p className="max-w-lg">{misi.content}</p>
             </li>
           ))}
         </ul>
