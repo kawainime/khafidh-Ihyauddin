@@ -29,7 +29,7 @@ Khafldh Ihyauddln sosok MIlenlal Lamongan Ini, Sejak duduk di bangku sekolah sud
             <Image
               src='/tentang-saya-1.png'
               alt='Khafldh Ihyauddln'
-              className='z-0 h-[520px] w-[450px] object-cover sm:h-[550px]'
+              className='z-0 h-[700px] w-[500px] object-cover sm:h-[560px]'
             />
           </div>
           </div>
