@@ -74,7 +74,7 @@ export default function HomeSection({}: Props) {
           </div>
           <div className='relative overflow-y-hidden rounded-2xl bg-white/20 backdrop-blur-lg'>
             <Image
-              src='/saya.png'
+              src='/khafidh.png'
               alt='Khafidh Ihyauddin'
               className=' relative -bottom-10 z-0 h-[520px] w-[450px] object-cover drop-shadow-2xl sm:h-[550px]'
             />
