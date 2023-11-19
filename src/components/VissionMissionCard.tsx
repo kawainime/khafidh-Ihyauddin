@@ -49,6 +49,9 @@ export default function VissionMissionCard({ activeTabs }: Props) {
                 <span className="w-6 h-6 rounded-full bg-secondary flex justify-center items-center text-white">
                   {index + 1}
                 </span>
+            <h1 className="text-lg font-semibold text-primary-text">{misi.title}</h1>
+              </div>
+              <p className="max-w-lg">{misi.content}</p>   
             </li>
           ))}
         </ul>
