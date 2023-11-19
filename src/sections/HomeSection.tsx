@@ -15,7 +15,7 @@ export default function HomeSection({}: Props) {
             Khafidh Ihyauddin Calon DPRD Kabupaten Lamongan
           </h1>
           <h3 className='text-hero-subtitle max-w-lg pt-4'>
-            Membangun Negeri Tanpa Melupakan Jati Diri Sebagai Muslimat Sejati
+            <center>Membangun Negeri Tanpa Melupakan Jati Diri Sebagai Nahdliyin Sejati</center>
           </h3>
           <Button className='mt-5 bg-secondary text-white' size='lg'>
             TENTANG SAYA
