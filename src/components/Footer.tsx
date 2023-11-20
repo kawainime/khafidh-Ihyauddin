@@ -24,9 +24,9 @@ export default function Footer({}: Props) {
         <div className='flex flex-col gap-3'>
           <h2 className='text-primary-text text-xl'>Information</h2>
           <div className='text-primary-text flex flex-col gap-1 font-light'>
-            <span>Lamongan - Lamongan</span>
+            <span>Lamongan</span>
             <span>Jawa Timur - Indonesia</span>
-            <span>+62-xxx-xxx</span>
+            <span>+62 813-3432-4541</span>
             <span>khafldhihyauddin@gmail.com</span>
           </div>
         </div>
