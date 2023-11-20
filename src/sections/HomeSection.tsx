@@ -50,7 +50,7 @@ export default function HomeSection({}: Props) {
               className='h-10 w-10'
             />
             <p className='text-primary-text text-base font-medium'>
-              Partai Persatuan Pembangunan
+              Logo PPP
             </p>
             <Image
               src='/nail.png'
