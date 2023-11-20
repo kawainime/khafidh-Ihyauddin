@@ -35,7 +35,7 @@ export default function VissionMissionCard({ activeTabs }: Props) {
         <div className="w-2 h-2 rounded-full bg-bg_secondary"></div>
         <div className="w-2 h-2 rounded-full bg-bg_secondary"></div>
       </div>
-      <h1 className="text-2xl font-semibold text-primary-text">Visi</h1>
+      <h1 className="text-2xl font-semibold text-primary-text">Visi & Misi</h1>
       {activeTabs === "visi" ? (
         <p className="max-w-xl">{data.visi}</p>
       ) : (
