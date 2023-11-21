@@ -9,7 +9,7 @@ export default function Footer({}: Props) {
         <div className='flex flex-col'>
           <h2 className='text-primary-text text-xl'>Khafidh Ihyauddin</h2>
           <h3 className='text-primary-text text-medium font-light'>
-            Calon Anggota DPRD Kabupaten Lamongan
+            Calon Anggota DPRD Dapil 4 Kabupaten Lamongan
           </h3>
         </div>
         <div className='flex flex-col gap-3'>
