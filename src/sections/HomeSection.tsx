@@ -18,7 +18,7 @@ export default function HomeSection({}: Props) {
             <center>Membangun Negeri Tanpa Melupakan Jati Diri Sebagai Nahdliyin Sejati</center>
           </h3>
           <Button className='mt-5 bg-secondary text-white' size='lg'>
-            TENTANG SAYA
+            DAPIL 4 LAMONGAN
           </Button>
         </div>
         <div className='relative '>
