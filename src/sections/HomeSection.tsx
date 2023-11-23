@@ -35,7 +35,7 @@ export default function HomeSection({}: Props) {
             <Image
               src='/verify.png'
               alt='Khafidh Ihyauddin'
-              className='h-6 w-6 rotate-[30deg] object-cover'
+              className='h-6 w-6 object-cover'
             />
           </div>
           <div
