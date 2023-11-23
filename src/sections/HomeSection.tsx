@@ -1,4 +1,5 @@
-import { Button, Image } from '@nextui-org/react';
+import React from 'react';
+import { Button as NextButton, Image } from '@nextui-org/react';
 import NextImage from 'next/image';
 
 const handleClick = () => {
@@ -21,9 +22,9 @@ export default function HomeSection({}: Props) {
           <h3 className='text-hero-subtitle max-w-lg pt-4'>
             <center>Membangun Negeri Tanpa Melupakan Jati Diri Sebagai Nahdliyin Sejati</center>
           </h3>
-          <Button className='mt-5 bg-secondary text-white' size='lg' onClick={handleClick}>
+          <NextButton className='mt-5 bg-secondary text-white' size='lg' onClick={handleClick}>
             DAPIL 4 LAMONGAN
-          </Button>
+          </NextButton>
         </div>
         <div className='relative '>
           <div
