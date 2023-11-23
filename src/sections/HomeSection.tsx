@@ -1,6 +1,5 @@
 import { Button, Image } from '@nextui-org/react';
 import NextImage from 'next/image';
-import Button from '@nextui-org/react';
 
 const handleClick = () => {
   window.location.href = 'https://khafidh-ihyauddin.now.sh/';
