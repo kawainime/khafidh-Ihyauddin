@@ -33,7 +33,7 @@ export default function HomeSection({}: Props) {
               Khafidh Ihyauddin
             </p>
             <Image
-              src='/nail.png'
+              src='/verify.png'
               alt='Khafidh Ihyauddin'
               className='h-6 w-6 rotate-[30deg] object-cover'
             />
