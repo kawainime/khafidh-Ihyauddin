@@ -3,8 +3,8 @@ import NextImage from 'next/image';
 import Button from '@nextui-org/react'; // Ganti 'nama-package-button' dengan nama package button yang digunakan
 
 const handleClick = () => {
-  // Logika yang ingin dijalankan saat button diklik
-  console.log('Button diklik');
+  // Mengarahkan pengguna ke URL tertentu saat button diklik
+  window.location.href = 'https://khafidh-ihyauddin.now.sh/';
 };
 
 type Props = {};
