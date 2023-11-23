@@ -1,5 +1,11 @@
 import { Button, Image } from '@nextui-org/react';
 import NextImage from 'next/image';
+import Button from '@nextui-org/react'; // Ganti 'nama-package-button' dengan nama package button yang digunakan
+
+const handleClick = () => {
+  // Logika yang ingin dijalankan saat button diklik
+  console.log('Button diklik');
+};
 
 type Props = {};
 
@@ -17,7 +23,7 @@ export default function HomeSection({}: Props) {
           <h3 className='text-hero-subtitle max-w-lg pt-4'>
             <center>Membangun Negeri Tanpa Melupakan Jati Diri Sebagai Nahdliyin Sejati</center>
           </h3>
-          <Button className='mt-5 bg-secondary text-white' size='lg'>
+          <Button className='mt-5 bg-secondary text-white' size='lg' onClick={handleClick}>
             DAPIL 4 LAMONGAN
           </Button>
         </div>
